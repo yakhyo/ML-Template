@@ -35,3 +35,10 @@ def LinkedList:
             yield node
             node = node.next
 
+    def add_last(self, data):
+        node = Node(data)
+        for curr in self:
+            pass
+
+        curr.next = node
+
