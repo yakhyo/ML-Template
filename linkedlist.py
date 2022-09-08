@@ -28,3 +28,10 @@ def LinkedList:
             node = node.next
         nodes.append("Node")
         return "->".join([str(node) for node in nodes])
+    
+    def __iter__(self):
+        node = self.head
+        while node:
+            yield node
+            node = node.next
+
