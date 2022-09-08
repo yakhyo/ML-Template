@@ -13,3 +13,5 @@ This is h4 heading
 ##### H5 heading
 This is h5 heading
 
+###### H6 heading
+This is H heading
