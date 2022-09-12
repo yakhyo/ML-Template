@@ -41,4 +41,10 @@ def LinkedList:
             pass
 
         curr.next = node
+    
+    def add_first(self, data):
+        node = Node(data)
+        node.next = self.head
+        self.head = node
+
 
