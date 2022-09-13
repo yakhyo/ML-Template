@@ -1,5 +1,9 @@
 def greet(name: str):
-    print(f"hello, {name}")
+    print(
+        f"hello, {name}, men seni bundan keyin ko'rmasam kerak deb \
+                o'ylagan edim, lekin unday emas shekilli. Nimalar\
+                bilan bandsan? Bu 80 qatordan oshdimi"
+    )
 
 
 def main():
