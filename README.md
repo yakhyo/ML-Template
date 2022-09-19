@@ -20,5 +20,3 @@ pip install pre-commit
 
 
 ## How to use pyright hooks
-
-## Tests here
