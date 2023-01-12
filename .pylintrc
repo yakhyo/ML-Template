@@ -5,10 +5,10 @@
 # Its canonical open-source location is:
 #   https://google.github.io/styleguide/pylintrc
 
-[MAIN]
+[MASTER]
 
 # Files or directories to be skipped. They should be base names, not paths.
-ignore=third_party,playground
+ignore=third_party
 
 # Files or directories matching the regex patterns are skipped. The regex
 # matches against base names, not paths.
@@ -39,8 +39,7 @@ confidence=
 # either give multiple identifier separated by comma (,) or put this option
 # multiple time (only on the command line, not in the configuration file where
 # it should appear only once). See also the "--disable" option for examples.
-; enable=
-
+#enable=
 
 # Disable the message, report, category or checker with the given id(s). You
 # can either give multiple identifiers separated by comma (,) or put this
@@ -52,105 +51,103 @@ confidence=
 # no Warning level messages displayed, use"--disable=all --enable=classes
 # --disable=W"
 disable=
-        ; abstract-method,
-        ; apply-builtin,
-        ; arguments-differ,
-        ; attribute-defined-outside-init,
-        ; backtick,
-        ; bad-option-value,
-        ; basestring-builtin,
-        ; buffer-builtin,
-        ; c-extension-no-member,
-        ; consider-using-enumerate,
-        ; cmp-builtin,
-        ; cmp-method,
-        ; coerce-builtin,
-        ; coerce-method,
-        ; delslice-method,
-        ; div-method,
-        ; duplicate-code,
-        ; eq-without-hash,
-        ; execfile-builtin,
-        ; file-builtin,
-        ; filter-builtin-not-iterating,
-        ; fixme,
-        ; getslice-method,
-        ; global-statement,
-        ; hex-method,
-        ; idiv-method,
-        ; implicit-str-concat,
-        import-error,
-        ; import-self,
-        ; import-star-module-level,
-        ; inconsistent-return-statements,
-        ; input-builtin,
-        ; intern-builtin,
-        ; invalid-str-codec,
-        ; locally-disabled,
-        ; long-builtin,
-        ; long-suffix,
-        ; map-builtin-not-iterating,
-        ; misplaced-comparison-constant,
-        missing-module-docstring,
-        missing-class-docstring,
-        missing-function-docstring,
-        ; metaclass-assignment,
-        ; next-method-called,
-        ; next-method-defined,
-        ; no-absolute-import,
-        ; no-else-break,
-        ; no-else-continue,
-        ; no-else-raise,
-        ; no-else-return,
-        ; no-init,  # added
-        no-member,
-        ; no-name-in-module,
-        ; no-self-use,
-        ; nonzero-method,
-        ; oct-method,
-        ; old-division,
-        ; old-ne-operator,
-        ; old-octal-literal,
-        ; old-raise-syntax,
-        ; parameter-unpacking,
-        ; print-statement,
-        ; raising-string,
-        ; range-builtin-not-iterating,
-        ; raw_input-builtin,
-        ; rdiv-method,
-        ; reduce-builtin,
-        ; relative-import,
-        ; reload-builtin,
-        ; round-builtin,
-        ; setslice-method,
-        ; signature-differs,
-        ; standarderror-builtin,
-        ; suppressed-message,
-        ; sys-max-int,
+        ;abstract-method,
+        ;apply-builtin,
+        ;arguments-differ,
+        attribute-defined-outside-init,
+        ;backtick,
+        ;bad-option-value,
+        ;basestring-builtin,
+        ;buffer-builtin,
+        ;c-extension-no-member,
+        ;consider-using-enumerate,
+        ;cmp-builtin,
+        ;cmp-method,
+        ;coerce-builtin,
+        ;coerce-method,
+        ;delslice-method,
+        ;div-method,
+        ;duplicate-code,
+        ;eq-without-hash,
+        ;execfile-builtin,
+        ;file-builtin,
+        ;filter-builtin-not-iterating,
+        fixme,
+		    unspecified-encoding,
+        ;getslice-method,
+        ;global-statement,
+        ;hex-method,
+        ;idiv-method,
+        ;implicit-str-concat,
+        ;import-error,
+        ;import-self,
+        ;import-star-module-level,
+        ;inconsistent-return-statements,
+        ;input-builtin,
+        ;intern-builtin,
+        ;invalid-str-codec,
+        ;locally-disabled,
+        ;long-builtin,
+        ;long-suffix,
+        ;map-builtin-not-iterating,
+        ;misplaced-comparison-constant,
+        ;missing-function-docstring,
+        ;metaclass-assignment,
+        ;next-method-called,
+        ;next-method-defined,
+        ;no-absolute-import,
+        ;no-else-break,
+        ;no-else-continue,
+        ;no-else-raise,
+        ;no-else-return,
+        ;no-init,  # added
+        ;no-member,
+        ;no-name-in-module,
+        ;no-self-use,
+        ;nonzero-method,
+        ;oct-method,
+        ;old-division,
+        ;old-ne-operator,
+        ;old-octal-literal,
+        ;old-raise-syntax,
+        ;parameter-unpacking,
+        ;print-statement,
+        ;raising-string,
+        ;range-builtin-not-iterating,
+        ;raw_input-builtin,
+        ;rdiv-method,
+        ;reduce-builtin,
+        ;relative-import,
+        ;reload-builtin,
+        ;round-builtin,
+        ;setslice-method,
+        ;signature-differs,
+        ;standarderror-builtin,
+        ;suppressed-message,
+        ;sys-max-int,
         too-few-public-methods,
-        ; too-many-ancestors,
+        too-many-ancestors,
         too-many-arguments,
-        ; too-many-boolean-expressions,
-        ; too-many-branches,
-        ; too-many-instance-attributes,
-        ; too-many-locals,
-        ; too-many-nested-blocks,
-        ; too-many-public-methods,
-        ; too-many-return-statements,
-        ; too-many-statements,
-        ; trailing-newlines,
-        ; unichr-builtin,
-        ; unicode-builtin,
-        ; unnecessary-pass,
-        ; unpacking-in-except,
-        unspecified-encoding,
-        ; useless-else-on-loop,
-        ; useless-object-inheritance,
-        ; useless-suppression,
-        ; using-cmp-argument,
-        ; wrong-import-order,
-        ; xrange-builtin,
-        ; zip-builtin-not-iterating,
+        too-many-boolean-expressions,
+        ;too-many-branches,
+        too-many-instance-attributes,
+        too-many-locals,
+        ;too-many-nested-blocks,
+        too-many-public-methods,
+        too-many-return-statements,
+        too-many-statements,
+        ;trailing-newlines,
+        ;unichr-builtin,
+        ;unicode-builtin,
+        ;unnecessary-pass,
+        ;unpacking-in-except,
+        ;useless-else-on-loop,
+        ;useless-object-inheritance,
+        ;useless-suppression,
+        ;using-cmp-argument,
+        ;wrong-import-order,
+        ;xrange-builtin,
+        ;zip-builtin-not-iterating,
 
 
 [REPORTS]
@@ -178,7 +175,11 @@ evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / stateme
 [BASIC]
 
 # Good variable names which should always be accepted, separated by a comma
-good-names=main,_
+good-names=_, f,
+           i, j,
+           k, v,
+           x, y,
+           w, h
 
 # Bad variable names which should always be refused, separated by a comma
 bad-names=
@@ -224,6 +225,9 @@ module-rgx=^(_?[a-z][a-z0-9_]*|__init__)$
 # Regular expression matching correct method names
 method-rgx=(?x)^(?:(?P<exempt>_[a-z0-9_]+__|runTest|setUp|tearDown|setUpTestCase|tearDownTestCase|setupSelf|tearDownClass|setUpClass|(test|assert)_*[A-Z0-9][a-zA-Z0-9_]*|next)|(?P<camel_case>_{0,2}[A-Z][a-zA-Z0-9_]*)|(?P<snake_case>_{0,2}[a-z][a-z0-9_]*))$
 
+# Regular expression matching correct type variable names
+typevar-rgx=^_?[A-Z]+(_[a-z][a-z0-9_]*)?$
+
 # Regular expression which should only match function or class names that do
 # not require a docstring.
 no-docstring-rgx=(__.*__|main|test.*|.*test|.*Test)$
@@ -258,13 +262,13 @@ ignored-classes=optparse.Values,thread._local,_thread._local
 # List of members which are set dynamically and missed by pylint inference
 # system, and so shouldn't trigger E1101 when accessed. Python regular
 # expressions are accepted.
-generated-members=
+generated-members=numpy.*,torch.*,tensorflow.*,pandas.*,cv2.*
 
 
 [FORMAT]
 
 # Maximum number of characters on a single line.
-max-line-length=180
+max-line-length=120
 
 # TODO(https://github.com/PyCQA/pylint/issues/3352): Direct pylint to exempt
 # lines made too long by directives to pytype.
@@ -279,7 +283,7 @@ ignore-long-lines=(?x)(
 single-line-if-stmt=yes
 
 # Maximum number of lines in a module
-max-module-lines=99999
+max-module-lin=1000
 
 # String used as indentation unit.  The internal Google style guide mandates 2
 # spaces.  Google's externaly-published style guide says 4, consistent with
