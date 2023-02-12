@@ -1,0 +1,4 @@
+pre-commit >= v4.0.1
+flake8 >= 6.0.0
+ufmt >= v1.3.2
+pydocstyle >= 6.1.1
