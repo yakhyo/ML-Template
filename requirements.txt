@@ -1,5 +1,3 @@
-# pip install -r requirements.txt
+black
 pre-commit
-flake8
-ufmt
-pydocstyle
+pylint
