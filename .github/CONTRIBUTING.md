@@ -17,7 +17,7 @@ Note
 - If you plan to add some new features that involve large changes, it is encouraged to open an issue for discussion first.
 - If you are the author of some papers and would like to include your method to mmsegmentation,
   please contact Yakhyokhuja Valikhujaev (yakhyo9696\[at\]gmail\[dot\]com). We will much appreciate your contribution
-  
+
 
 ## Code style
 
@@ -32,7 +32,7 @@ We use the following tools for linting and formatting:
 - [pydocstyle](https://github.com/PyCQA/pydocstyle): sort imports
 
 
-We use [pre-commit hook](https://pre-commit.com/) that checks and formats for `trailing whitespaces`, 
+We use [pre-commit hook](https://pre-commit.com/) that checks and formats for `trailing whitespaces`,
 fixes `end-of-files` automatically on every commit.
 The config for a pre-commit hook is stored in [.pre-commit-config](../.pre-commit-config.yaml).
 
