@@ -24,7 +24,7 @@ Provide examples of how to use your project. Include any relevant code snippets 
 
 ## Contributing
 
-If you welcome contributions from other developers, explain how they can get started. Include information on how to report bugs, request features, or submit code changes. See the [Contributing policy](.github/CONTRIBUTING.md) and [Code of Conduct](.github/CODE_OF_CONDUCT.md).
+If you welcome contributions from other developers, explain how they can get started. Include information on how to report bugs, request features, or submit code changes.
 
 ## License
 
