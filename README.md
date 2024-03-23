@@ -4,11 +4,11 @@ Briefly introduce your project in a sentence or two.
 
 ## Table of Contents
 
-* [Project Description](#project-description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
+- [Project Description](#project-description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Project Description
 
@@ -25,6 +25,7 @@ Provide examples of how to use your project. Include any relevant code snippets 
 ## Contributing
 
 If you welcome contributions from other developers, explain how they can get started. Include information on how to report bugs, request features, or submit code changes.
+If you welcome contributions from other developers, explain how they can get started. Include information on how to report bugs, request features, or submit code changes. See the [Contributing policy](.github/CONTRIBUTING.md) and [Code of Conduct](.github/CODE_OF_CONDUCT.md).
 
 ## License
 
